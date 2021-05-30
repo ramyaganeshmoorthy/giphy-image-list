@@ -1,8 +1,10 @@
-import ImageFrame from './Components/Image/ImageFrame';
+import ImageFrame from "./Components/Image/ImageFrame";
 
 function App() {
   return (
-    <ImageFrame/>
+    <div class="ui fluid container">
+      <ImageFrame />
+    </div>
   );
 }
 

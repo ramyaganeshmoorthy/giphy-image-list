@@ -14,7 +14,7 @@ class ImageFrame extends React.Component {
           .get("https://api.giphy.com/v1/gifs/trending", {
             params: {
               api_key: "o2Fjl0U28LlsHMJYYIBE58YSGSNXo8h1",
-              limit: 10,
+              limit: 25,
             },
           })
           .then((response) => {
